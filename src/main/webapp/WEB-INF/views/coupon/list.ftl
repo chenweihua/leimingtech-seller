@@ -72,7 +72,7 @@
 								<td></td>
 								<td>
 									<span href="qw" title="${coupon.couponTitle}"> 
-										<img style="display: inline;" src="${coupon.couponPic}"
+										<img style="display: inline;" src="${imgServer}${coupon.couponPic}"
 											height="60" width="98">
 									</span>
 								</td>

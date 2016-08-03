@@ -44,7 +44,7 @@
             <option value="">请选择</option>
             <#if StoreGoodsClassVoMap??>
 	            <#list StoreGoodsClassVoMap?keys as sgckey>
-	            	<#list StoreGoodsClassVoMap[sgckey] as sgclist>
+	            	<#list StoreGoodsClassVoMap.get(sgckey) as sgclist>
 	            		<#if sgclist_index==0>
 	            			<option value="${sgclist.parentId}">${sgclist.parentName}</option>
 	            		<#else>

@@ -11,7 +11,7 @@ html {min-height:101%; }
 .clear { font-size: 0px; line-height: 0px; height: 0; margin: 0; padding: 0; float: none; clear: both; border: 0;}
 
 
-input.text{ font-family: Tahoma; height: 16px; line-height: 16px; background-color:#FBFBFB; padding: 1px 2px 3px 4px !important; padding: 3px 2px 1px 4px; border: solid 1px; border-color: #CCC #DDD #DDD #CCC;}
+input.text{ font-family: Tahoma; height: 20px; line-height: 20px; background-color:#FBFBFB; padding: 1px 2px 3px 4px !important; padding: 3px 2px 1px 4px; border: solid 1px; border-color: #CCC #DDD #DDD #CCC;}
 input.text:hover{ background-color:#FFF;}
 input.password { font-family: Tahoma; height: 16px; line-height: 16px; background-color:#FFFFEC; padding: 1px 2px 3px 4px !important; padding: 3px 2px 1px 4px; border: solid 1px; border-color: #FC9 #FFDFBF #FFDFBF #FC9; box-shadow: 2px 2px 1px 0 #FFF2DA inset; -moz-box-shadow: 2px 2px 1px 0 #FFF2DA inset/* if FF*/; -webkit--box-shadow: 2px 2px 1px 0 #FFF2DA inset/* if Webkie*/;}
 input[type="text"]{ box-shadow: 2px 2px 1px 0 #E7E7E7 inset; -moz-box-shadow: 2px 2px 1px 0 #E7E7E7 inset/* if FF*/; -webkit--box-shadow: 2px 2px 1px 0 #E7E7E7 inset/* if Webkie*/;}

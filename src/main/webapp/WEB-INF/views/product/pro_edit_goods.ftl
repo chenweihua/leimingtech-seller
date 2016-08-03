@@ -559,7 +559,7 @@ h1{
 								<select name="storeGoodsClass" class="sgcategory">
 									<option value="">请选择</option> <#if StoreGoodsClassVoMap??>
 									<#list StoreGoodsClassVoMap?keys as sgckey> <#list
-									StoreGoodsClassVoMap[sgckey] as sgclist> <#if sgclist_index==0>
+									StoreGoodsClassVoMap.get(sgckey) as sgclist> <#if sgclist_index==0>
 									<option value="${sgclist.parentId}">${sgclist.parentName}</option>
 									<#elseif sgclist.childState>
 									<option value="${sgclist.childId}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${sgclist.childName}</option>
